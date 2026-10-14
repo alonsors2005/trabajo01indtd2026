@@ -2,7 +2,7 @@
 
 ---
 title: "Trabajo 01 - Teoría de la Decisión"
-author: "Alonso Rodríguez Saldaña"
+name: "Alonso Rodríguez Saldaña"
 format:
   html: default
   typst: default
@@ -12,13 +12,13 @@ format:
 
 ## PROBLEMA 1
 
-**Una empresa debe decidir entre tres estrategias de expansión (d_1, d_2, d_3) frente a tres posibles escenarios de mercado (e_1, e_2, e_3). La matriz de valores es la siguiente:**
+**Una empresa debe decidir entre tres estrategias de expansión (**$d_1$**,** $d_2$**,** $d_3$**) frente a tres posibles escenarios de mercado (**$e_1$**,** $e_2$**,** $e_3$ **). La matriz de valores es la siguiente:**
 
-| Alternativas/Escenarios | e1  | e2  | e3  |
-|-------------------------|-----|-----|-----|
-| **d1**                  | 12  | 8   | 20  |
-| **d2**                  | 18  | 4   | 15  |
-| **d3**                  | 10  | 14  | 10  |
+| Alternativas/Escenarios | $e_1$ | $e_2$ | $e_3$ |
+|-------------------------|-------|-------|-------|
+| $d_1$                   | 12    | 8     | 20    |
+| $d_2$                   | 18    | 4     | 15    |
+| $d_3$                   | 10    | 14    | 10    |
 
 : Tabla de matriz de valores
 
@@ -33,3 +33,31 @@ format:
 4.   El criterio de Hurwicz requiere un coeficiente alfa para ponderar el mejor y peor resultado
 
 5.  La matriz de arrepentimientos en el criterio de Savage se calcula exactamente de la misma forma para beneficios que para costes.
+
+## PROBLEMA 2
+
+**El equipo de fútbol Real de Tomares FC está planificando la próxima temporada y dispone del presupuesto para realizar un único fichaje estrella. La directiva duda entre tres jugadores de élite: Messiano (**$d_1$**), Cristialand (**$d_2$**) y Neyppé Jr. (**$d_3$**).**
+
+**El impacto económico y deportivo (medido en retorno de inversión neto en millones de euros) dependerá del rendimiento futuro e impredecible del jugador elegido en el esquema táctico del entrenador (**$e_1$**: Rendimiento Top,** $e_2$**: Rendimiento medio,** $e_3$**: Rendimiento malo).**
+
+**La matriz de beneficios previstos es la siguiente:**
+
+| Jugador($d_i$)/Rendimiento($e_i$) | Rendimiento Top $e_1$ | Rendimiento medio $e_2$ | Rendimiento malo $e_3$ |
+|----------------------------|------------------|---------------|------------|
+| **Messiano** ($d_1$) | 90 | 50 | 10 |
+| **Cristialand** ($d_2$) | 100 | 40 | 5 |
+| **Neyppé Jr**($d_3$) | 70 | 60 | 30 |
+
+: Matriz de beneficios
+
+### CUESTIONARIO
+
+1.  El criterio Pesimista (Wald) recomienda fichar a Neyppé Jr porque asegura un beneficio mínimo de 30 millones.
+
+2.  El criterio Optimista elige a Messiano por ofrecer el mayor beneficio absoluto.
+
+3.  Bajo el criterio de Laplace, la opción con mayor beneficio medio esperado es Messiano.
+
+4.  El criterio de Hurwicz (con alfa = 0.5) determina que la alternativa óptima es Cristialand.
+
+5.  Neyppé Jr es el único jugador que evita balances o retornos negativos en el peor escenario posible.
