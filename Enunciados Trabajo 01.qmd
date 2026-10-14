@@ -1,0 +1,23 @@
+---
+
+---
+title: "Trabajo 01 - Teoría de la Decisión"
+author: "Alonso Rodríguez Saldaña"
+format:
+  html: default
+  typst: default
+---
+
+# ENUNCIADOS PROBLEMAS
+
+## PROBLEMA 1
+
+**Una empresa debe decidir entre tres estrategias de expansión (d_1, d_2, d_3) frente a tres posibles escenarios de mercado (e_1, e_2, e_3). La matriz de valores es la siguiente:**
+
+| Alternativas/Escenarios | e1  | e2  | e3  |
+|-------------------------|-----|-----|-----|
+| **d1**                  | 12  | 8   | 20  |
+| **d2**                  | 18  | 4   | 15  |
+| **d3**                  | 10  | 14  | 10  |
+
+: Tabla de matriz de valores
