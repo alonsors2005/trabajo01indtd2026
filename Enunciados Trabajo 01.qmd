@@ -2,7 +2,7 @@
 
 ---
 title: "Trabajo 01 - Teoría de la Decisión"
-name: "Alonso Rodríguez Saldaña"
+author: "Alonso Rodríguez Saldaña"
 format:
   html: default
   typst: default
@@ -24,15 +24,15 @@ format:
 
 ### CUESTIONARIO
 
-1.  En situación favorable, el criterio Pesimista (Wald) selecciona la alternativa d_3.
+1.  En situación favorable, el criterio Pesimista (Wald) selecciona la alternativa $d_3$. En situación desfavorable, elige también a $d_3$. **VERDADERO**
 
-2.   En situación favorable, el criterio Optimista selecciona la alternativa d_1.
+2.   En situación favorable, el criterio Optimista selecciona la alternativa $d_1$. En desfavorable también elige a $d_1$. **FALSO**
 
-3.   En situación desfavorable, el criterio de Laplace determina que la mejor opción es d_2.
+3.   En situación desfavorable, el criterio de Laplace determina que la mejor opción es $d_2$. En favorable elige a $d_1$. **FALSO**
 
-4.   El criterio de Hurwicz requiere un coeficiente alfa para ponderar el mejor y peor resultado
+4.  Para un alfa=0.5, el criterio de Hurwicz elige a $d_2$ como mejor resultado. Para alfa=0.4 en criterio desfavorable elige a $d_3$. **FALSO**
 
-5.  La matriz de arrepentimientos en el criterio de Savage se calcula exactamente de la misma forma para beneficios que para costes.
+5.  En situación desfavorable, el criterio savage elige a $d_2$. En favorable elige a $d_1$. **VERDADERO**
 
 ## PROBLEMA 2
 
@@ -52,12 +52,12 @@ format:
 
 ### CUESTIONARIO
 
-1.  El criterio Pesimista (Wald) recomienda fichar a Neyppé Jr porque asegura un beneficio mínimo de 30 millones.
+1.  El criterio Pesimista (Wald) recomienda fichar a Neyppé Jr. **VERDADERO**
 
-2.  El criterio Optimista elige a Messiano por ofrecer el mayor beneficio absoluto.
+2.  El criterio Optimista elige a Messiano. **FALSO**
 
-3.  Bajo el criterio de Laplace, la opción con mayor beneficio medio esperado es Messiano.
+3.  Bajo el criterio de Laplace, la opción escogida es Messiano. **FALSO**
 
-4.  El criterio de Hurwicz (con alfa = 0.5) determina que la alternativa óptima es Cristialand.
+4.  El criterio de Hurwicz (con alfa = 0.5) determina que la alternativa óptima es Cristialand. **VERDADERO**
 
-5.  Neyppé Jr es el único jugador que evita balances o retornos negativos en el peor escenario posible.
+5.  Neyppé Jr es el único jugador que evita balances o retornos negativos en el peor escenario posible. **FALSO**
