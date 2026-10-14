@@ -21,3 +21,15 @@ format:
 | **d3**                  | 10  | 14  | 10  |
 
 : Tabla de matriz de valores
+
+### CUESTIONARIO
+
+1.  En situación favorable, el criterio Pesimista (Wald) selecciona la alternativa d_3.
+
+2.   En situación favorable, el criterio Optimista selecciona la alternativa d_1.
+
+3.   En situación desfavorable, el criterio de Laplace determina que la mejor opción es d_2.
+
+4.   El criterio de Hurwicz requiere un coeficiente alfa para ponderar el mejor y peor resultado
+
+5.  La matriz de arrepentimientos en el criterio de Savage se calcula exactamente de la misma forma para beneficios que para costes.
